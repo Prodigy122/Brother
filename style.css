@@ -13,4 +13,67 @@ header {
     
 }
 
+.navigationList {
+    list-style-type: none;
+    font-family:fantasy; 
+    display: flex;
+    justify-content: space-around;
+    border: 4px dotted blue;
+    padding: 10px;
+    align-items: center;
+    background-color: seashell;
+}
 
+.navigationList a {
+    text-decoration: none;
+}
+
+.navigationList a :hover {
+    color: crimson;
+    transition: 1s ease-out;
+
+}
+
+.article1 {
+    
+    text-align: justify;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(186, 200, 198);
+}
+
+.quote {
+    
+    text-align: justify;
+    font-size: 17px;
+    font-family:cursive;
+    background-color: gold;
+}
+
+.quote :hover {
+    color:chartreuse;
+    
+}
+
+
+.column {
+    display:flex;
+    flex-direction: column;
+    gap: 14px;
+    width:60%;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.video {
+    border:1px solid black;
+    display: flex;
+    
+    
+}
